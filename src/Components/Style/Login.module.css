@@ -1,0 +1,37 @@
+.LoginBox{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 420px;
+    margin: auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+.LoginBox>h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.LoginBox>h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.LoginBox>h1{
+    text-align: center;
+}
+.LoginBox>input{
+    width: 90%;
+    font-size: 23px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.Submit{
+    padding: 2rem;
+}
+@media only screen and (max-width: 400px){
+    .LoginBox{
+        width: 90%;
+    }
+}
